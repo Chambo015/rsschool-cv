@@ -1,9 +1,10 @@
 # AISAHANOV ERALY
----
+
 ### Info:
 * Location: Kazakhstan, Nur-Sultan
 * Phone: +7 701 403 95 44
 * Email: a_era_94@mail.ru
+
 ---
 ### Personal qualities: 
 Striving for professional development and training. 
@@ -15,6 +16,7 @@ Purposefulness, responsibility, organization.
 - HTML, CSS
 - Figma, PS
 - UI Дизайн
+
 ---
 ### Code example:
 **Kata from CodeWars:** a function that takes an integer as input, and returns the number of bits that are equal to one in the binary representation of that number.
