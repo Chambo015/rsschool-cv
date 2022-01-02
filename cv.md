@@ -29,9 +29,9 @@ var countBits = function(n) {
 };
 ```
 ---
-###Courses:
+### Courses:
 ![WayUp](https://i.yapx.ru/P5XB1.jpg)
 
 ---
-###English: 
+### English:
 **B1** Low Intermediate
