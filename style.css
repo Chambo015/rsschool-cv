@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.container {
+    max-width: 750px;
+    margin: 30px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.main {
+    flex: 1;
+    border-right: 2px solid #1C1C1C;
+}
+
+.aside {
+    flex: 0 0 180px
+}
+
+.heading-wrapper {
+    padding: 9px 0;
+    width: 200px;
+    border: 1px solid #1C1C1C;
+    margin-bottom: 20px;
+}
+
+.heading-wrapper.long {
+    width: 350px;
+}
+
+.heading-wrapper h2 {
+    font-weight: 275;
+    font-size: 15px;
+    line-height: 12px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+    text-align: center;
+}
+
+.header {
+    border-bottom: 2px solid #1C1C1C;
+    padding-bottom: 20px;
+}
+
+.my-name {
+    font-weight: 800;
+    font-size: 42px;
+    width: 470px;
+    line-height: 39px;
+    color: #1C1C1C;
+}
+
+.projects,
+.code,
+.about-me {
+    padding: 12px 45px 30px 0;
+}
+
+.about-me__text {
+    margin-top: 20px;
+}
+
+.work-experience {
+    padding: 12px 30px 30px 0;
+
+}
+
+.section__heading {
+    font-weight: 275;
+    font-size: 20px;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #1C1C1C;
+}
+
+.work-experience .work-experience__title {
+    margin-top: 20px;
+}
+
+.work-experience__heading {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+}
+
+.v-line {
+    font-size: 10px;
+    border: 1px solid black;
+    margin: 0 5px;
+    align-self: center;
+}
+
+.about-me__text,
+.work-experience__description,
+.work-experience__item {
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #1C1C1C;
+}
+
+.work-experience__list {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+li::marker {
+    font-size: 8px;
+}
+
+.code__description {
+     font-weight: 275;
+     font-size: 12px;
+     line-height: 14px;
+     letter-spacing: 0.1em;
+     color: #1C1C1C;
+     margin-top: 20px;
+}
+pre {
+    margin-right: 50px;
+    margin-top: 10px;
+    background-color: rgb(240, 236, 236);
+    padding: 20px;
+}
+.projects a {
+    display: block;
+    margin-top: 10px;
+}
+
+.aside .list {
+    margin-bottom: 50px;
+}
+
+.aside img {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.aside .list__item {
+    list-style-type: none;
+    font-weight: 275;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.14em;
+    color: #1C1C1C;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.aside dd:last-of-type .list__item {
+    list-style-type: initial;
+    list-style-position: inside;
+}
+
+.footer {
+    border-top: 2px solid #1C1C1C;
+}
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.footer ul img {
+    height: 50px;
+}
